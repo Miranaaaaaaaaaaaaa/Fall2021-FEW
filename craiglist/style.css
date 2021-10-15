@@ -1,0 +1,792 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: elephant;
+}
+
+.topNav {
+  position: relative;
+  height: 50px;
+  padding: 15px;
+}
+
+.endNav {
+  position: relative;
+  margin-top: 160px;
+  height: 50px;
+  padding: 15px;
+}
+
+.leftSide {
+  list-style: none;
+  float: left;
+}
+
+.rightSide {
+  list-style: none;
+  float: right;
+}
+
+.menuItem {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 13.5px;
+  vertical-align: top;
+  color: #000;
+  opacity: 0.60;
+}
+
+.signIn {
+  border: 1px none;
+  font-family: elephant;
+  font-size: 13.5px;
+  outline: none;
+  background: none;
+
+  color: black;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.foot{
+  border: 1px none;
+  font-family: elephant;
+  font-size: 10px;
+  outline: none;
+  background: inherit;
+
+  text-decoration: black;
+  height: 30px;
+  padding: 0 10px;
+  opacity: 0.3;
+}
+
+.main {
+  clear: left;
+  margin-top: 130px;
+}
+
+.mainImage {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.p1Image {
+
+  width: 150px;
+  height: auto;
+  padding-right: 10px;
+    padding-left: 10px;
+    box-sizing:border-box
+}
+
+.p2Image {
+
+  width: 146px;
+  height: auto;
+  padding-right: 10px;
+    padding-left: 10px;
+    box-sizing:border-box
+}
+
+.p3Image {
+
+  width: 170px;
+  height: 135px;
+  padding-right: 10px;
+    padding-left: 10px;
+    box-sizing:border-box
+}
+
+.p4Image {
+
+  width: 153px;
+  height: auto;
+  padding-right: 10px;
+    padding-left: 10px;
+    box-sizing:border-box
+}
+
+.p5Image {
+
+  width: 150px;
+  height: auto;
+  padding-right: 10px;
+    padding-left: 10px;
+    box-sizing:border-box
+}
+
+.mainImageContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.searchBox {
+  width: 600px;
+  border: 1px solid #bababa;
+  box-shadow: none;
+  border-radius: 2px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+
+}
+
+
+
+.searchIcon svg {
+  margin-top: 15px;
+  fill: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+}
+
+.textInput {
+  border: 0;
+  outline: 0;
+  height: 20px;
+  background-color: none;
+  opacity: 0;
+  vertical-align: middle;
+  width: calc(100% - 50px);
+}
+
+.buttonGroup {
+
+  display: flex;
+  width: 100vw;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: -5px;
+
+
+}
+
+.searchButton1 {
+  font-family: Abril Fatface;
+
+  background-color: white;
+  border: None;
+  border-radius: 4px;
+
+
+  font-size: 14px;
+  position:absolute;
+  margin-right:660px;
+
+  padding: 0px;
+
+
+
+  cursor: pointer;
+color: #262626;
+}
+
+.searchButton2 {
+  font-family: Abril Fatface;
+
+  background-color: white;
+  border: None;
+  border-radius: 4px;
+
+
+  font-size: 14px;
+  position:absolute;
+  margin-right:330px;
+
+  padding:0px
+
+
+
+  cursor: pointer;
+color: #262626;
+}
+
+.searchButton3 {
+  font-family: Abril Fatface;
+  background-color: white;
+  border: None;
+  border-radius: 4px;
+
+
+  font-size: 14px;
+  position:absolute;
+  margin-left:-15px;
+
+  padding: 0px;
+
+  min-width: 54px;
+
+  cursor: pointer;
+color: #262626;
+}
+
+.searchButton4 {
+  font-family: Abril Fatface;
+
+  background-color: white;
+  border: None;
+  border-radius: 4px;
+
+
+  font-size: 14px;
+  position:absolute;
+  margin-left:305px;
+
+  padding: 0px;
+
+  min-width: 54px;
+
+  cursor: pointer;
+
+  color: #262626;
+
+}
+
+.searchButton5 {
+  border: None;
+  background-color: white;
+  border-radius: 4px;
+  margin-left:615px;
+  position:absolute;
+  padding: 0px;
+  min-width: 54px;
+  cursor: pointer;
+
+  font-family: Abril Fatface;
+  font-size: 14px;
+  color: #262626;
+
+}
+
+.catogory{
+  display: flex;
+  flex-direction: column;
+}
+
+.tlabel{
+  margin-left: 30px;
+}
+
+.locIcon{
+
+  width: 20px;
+  height: auto;
+}
+
+.titleW{
+  position: absolute;
+  margin-left: 290px;
+  font-family: French Script MT;
+  font-size: 33px;
+  margin-top: -30px;
+}
+
+.column{}
+
+@media screen and (max-width: 600px){
+  body{
+    background: #d4d4d4;
+  }
+  .searchButton1 {
+    font-family: Abril Fatface;
+    text-decoration-color: #262626;
+
+    background-color: inherit;
+    border: None;
+
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-200px;
+    margin-top: -140px;
+
+    padding: 0px;
+
+
+
+    cursor: pointer;
+
+  }
+
+  .searchButton2 {
+    font-family: Abril Fatface;
+
+    background-color: inherit;
+    border: None;
+    border-radius: 4px;
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-20px;
+    margin-top: -140px;
+    padding:0px
+
+
+
+    cursor: pointer;
+  text-decoration-color: #262626;
+  }
+
+  .searchButton3 {
+    background-color: inherit;
+    text-decoration-color: #262626;
+    font-family: Abril Fatface;
+
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left: 115px;
+    margin-top: -140px;
+    padding: 0px;
+
+    min-width: 54px;
+
+    cursor: pointer;
+
+  }
+
+  .searchButton4 {
+    font-family: Abril Fatface;
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-120px;
+    margin-top: -5px;
+    padding: 0px;
+
+    min-width: 54px;
+
+    cursor: pointer;
+
+
+
+  }
+
+  .searchButton5 {
+    background-color: inherit;
+    text-decoration-color: #262626;
+    margin-left:40px;
+    margin-top: -5px;
+    position:absolute;
+    padding: 0px;
+    min-width: 54px;
+    cursor: pointer;
+
+    font-family: Abril Fatface;
+    font-size: 14px;
+
+
+  }
+
+  .searchBox {
+    width: 450px;
+    border: 1px solid #002e2e;
+    box-shadow: none;
+    border-radius:20px;
+    z-index: 3;
+    height: 40px;
+    margin: 0 auto;
+
+  }
+
+  .textInput {
+
+    border: 0;
+    outline: 0;
+    height: 20px;
+    vertical-align: middle;
+    background-color: none;
+    opacity: 0;
+    width: calc(100% - 50px);
+  }
+
+  .titleW{
+    color: #005757;
+    position: absolute;
+    margin-left: 10px;
+    font-family: French Script MT;
+    font-size: 45px;
+    margin-top: -40px;
+  }
+  .menuItem {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15.5px;
+    vertical-align: top;
+    color: #000;
+    opacity: 0.60;
+  }
+
+  .signIn {
+    border: 1px none;
+    font-family: elephant;
+    font-size: 15.5px;
+    outline: none;
+    background: none;
+
+    color: black;
+    height: 30px;
+    padding: 0 10px;
+  }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 950px){
+  body{
+    background: #ffa07a;
+  }
+
+  .p1Image {
+
+    width: 100px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .p2Image {
+
+    width: 96px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .p3Image {
+
+    width: 120px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .p4Image {
+
+    width: 103px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .p5Image {
+
+    width: 100px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .searchButton1 {
+    font-family: Abril Fatface;
+
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-250px;
+
+    padding: 0px;
+
+
+
+    cursor: pointer;
+
+  }
+
+  .searchButton2 {
+    font-family: Abril Fatface;
+
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-135px;
+
+    padding:0px
+
+
+
+    cursor: pointer;
+
+  }
+
+  .searchButton3 {
+    font-family: Abril Fatface;
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-40px;
+
+    padding: 0px;
+
+    min-width: 54px;
+
+    cursor: pointer;
+
+  }
+
+  .searchButton4 {
+    font-family: Abril Fatface;
+
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:67px;
+
+    padding: 0px;
+
+    min-width: 54px;
+
+    cursor: pointer;
+
+
+  }
+
+  .searchButton5 {
+    background-color: inherit;
+    text-decoration-color: #262626;
+    margin-left:178px;
+    position:absolute;
+    padding: 0px;
+    min-width: 54px;
+    cursor: pointer;
+
+    font-family: Abril Fatface;
+    font-size: 14px;
+
+
+  }
+
+  .searchBox {
+    width: 450px;
+    border: 1px solid white;
+    box-shadow: none;
+    border-radius: 2px;
+    z-index: 3;
+    height: 40px;
+    margin: 0 auto;
+
+  }
+
+  .textInput {
+    border: 0;
+    outline: 0;
+    height: 20px;
+    vertical-align: middle;
+    width: calc(100% - 50px);
+    background-color: none;
+    opacity: 0;
+  }
+
+  .titleW{
+    color: #7c78e8;
+    position: center;
+    margin-left: 110px;
+    font-family: 'Permanent Marker', cursive;;
+    font-size: 35px;
+    margin-top: -30px;
+  }
+
+}
+
+@media screen and (min-width: 950px) and (max-height: 450px){
+  body{
+    background: #dec8ab;
+  }
+  .p1Image {
+
+    width: 100px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .p2Image {
+
+    width: 96px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .p3Image {
+
+    width: 120px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .p4Image {
+
+    width: 103px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .p5Image {
+
+    width: 100px;
+    height: auto;
+    padding-right: 10px;
+      padding-left: 10px;
+      box-sizing:border-box
+  }
+
+  .searchButton1 {
+    font-family: Abril Fatface;
+
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-250px;
+
+    padding: 0px;
+
+
+
+    cursor: pointer;
+
+  }
+
+  .searchButton2 {
+    font-family: Abril Fatface;
+
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-135px;
+
+    padding:0px
+
+
+
+    cursor: pointer;
+
+  }
+
+  .searchButton3 {
+    font-family: Abril Fatface;
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:-40px;
+
+    padding: 0px;
+
+    min-width: 54px;
+
+    cursor: pointer;
+
+  }
+
+  .searchButton4 {
+    font-family: Abril Fatface;
+
+    background-color: inherit;
+    text-decoration-color: #262626;
+
+
+    font-size: 14px;
+    position:absolute;
+    margin-left:67px;
+
+    padding: 0px;
+
+    min-width: 54px;
+
+    cursor: pointer;
+
+
+  }
+
+  .searchButton5 {
+    background-color: inherit;
+    text-decoration-color: #262626;
+    margin-left:178px;
+    position:absolute;
+    padding: 0px;
+    min-width: 54px;
+    cursor: pointer;
+
+    font-family: Abril Fatface;
+    font-size: 14px;
+
+
+  }
+
+  .searchBox {
+    width: 450px;
+    border: 1px solid #bababa;
+    box-shadow: none;
+    border-radius: 2px;
+    z-index: 3;
+    height: 40px;
+    margin: 0 auto;
+
+  }
+
+  .textInput {
+    border: 0;
+    outline: 0;
+    height: 20px;
+    vertical-align: middle;
+    background-color: none;
+    opacity: 0;
+    width: calc(100% - 50px);
+  }
+
+  .titleW{
+    position: absolute;
+    margin-left: 110px;
+    font-family: French Script MT;
+    font-size: 35px;
+    margin-top: -30px;
+  }
+
+
+}
+
+@media screen and (min-width: 950px) and (min-height: 450px){
+  body{
+    background: white;
+  }
+}
