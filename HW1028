@@ -1,0 +1,111 @@
+//CH6 Fang the dog
+/*
+const dog = {
+  name: 'Fang',
+  species: 'boarhound',
+  size: 75,
+  
+  bark(){
+    return "Grrr! Grrr!";
+  }
+};
+
+console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`);
+console.log(`Look, a cat! ${dog.name} barks: ${dog.bark()}`);
+*/
+
+//Ch6 circle
+/*
+const r = Number(prompt("Enter the circle radius:"));
+const circle = {
+  radius: r,
+  
+  circumference(){
+    return 2*this.radius*Math.PI;
+  },
+  
+  area(){
+    return Math.pow(this.radius,2) * Math.PI;
+  }
+};
+
+console.log(`Its circumference is ${circle.circumference()}`);
+console.log(`Its area is ${circle.area()}`);
+*/
+
+//CH6 bank account
+/*
+const account = {
+  name: "Alex",
+  balance: 0,
+  
+  credit(val){
+    this.balance += val;
+  },
+  
+  describe(){
+    return `owner: ${this.name}, balance ${this.balance}`
+  }
+}
+
+console.log(account.describe());
+account.credit(250);
+account.credit(-80);
+console.log(account.describe());
+*/
+
+//CH7 Array Max
+/*
+values = [];
+large = 0;
+
+for (let i = 0; i < 6; i++){
+  const val = Number(prompt("Enter values:"));
+  values.push(val);
+  
+  if (i == 0){
+    large = val;
+  }
+  else if(large < val){
+    large = val;
+  }
+}
+
+console.log(values);
+console.log(`maximun value is ${large}`);
+*/
+
+//CH 7  list
+/*
+let arr = [];
+
+word = prompt("Enter word:");
+while (word != "stop"){
+  arr.push(word);
+ // word = prompt("Enter word:");
+}
+console.log(arr);
+*/
+
+//CH8 backward & Palindrome
+/*
+keyWord = prompt("Enter a word:");
+console.log(keyWord.length);
+console.log(keyWord.toLowerCase());
+console.log(keyWord.toUpperCase());
+
+function back(){
+  backward = "";
+  for (let i = (keyWord.length)-1; i > -1; i--){
+  backward += keyWord[i];
+  //console.log(keyWord[i]);
+  }
+  return backward;
+}
+console.log(back());
+
+newWord = back();
+if (newWord.toLowerCase() === keyWord.toLowerCase()){
+  console.log(`${newWord.toLowerCase()} should be dectected as a palindrome, ${keyWord} too.`);
+}
+*/
